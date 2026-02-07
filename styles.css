@@ -9,7 +9,7 @@
     --brand-green: #0D9373;
     --brand-green-light: #1DB978;
     --text-primary: #0f1115;
-    --text-secondary: #5c5c5c;
+    --text-secondary: #08090A;
     --text-muted: #B8D8D5;
     --bg-white: #FFFFFF;
     --bg-light: #f7f8f9;
@@ -114,7 +114,7 @@ ul {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 20px;
+    padding: 8px 20px;
     font-size: 15px;
     font-weight: 500;
     border-radius: var(--border-radius-full);
@@ -129,7 +129,7 @@ ul {
 }
 
 .btn-primary:hover {
-    background-color: #1a1a1a;
+    background-color: #2a2929;
 }
 
 .btn-secondary {
@@ -646,22 +646,22 @@ ul {
     gap: 24px;
 }
 
-.customer-story-bg{
+.customer-story-bg {
     border-radius: 32px;
     overflow: hidden;
     height: 100%;
     opacity: 0.97;
 }
 
-.customer-story-bg:hover{
+.customer-story-bg:hover {
     opacity: 1;
 }
 
-.customer-story .container{
+.customer-story .container {
     position: relative;
 }
 
-.customer-story .customer-story-page-logos{
+.customer-story .customer-story-page-logos {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 60px 60px;
@@ -671,7 +671,7 @@ ul {
     margin: auto;
 }
 
-.flex-item{
+.flex-item {
     max-width: 180px;
     height: 80px;
     object-fit: contain;
@@ -694,7 +694,7 @@ ul {
 
 }
 
-.story-content{
+.story-content {
     color: #FFFFFF;
     z-index: 1;
 }
@@ -704,7 +704,7 @@ ul {
     display: flex;
     color: #FFFFFF;
     z-index: 1;
-    
+
 }
 
 .story-label {
@@ -750,6 +750,9 @@ ul {
 
 /* Customers Section */
 .customers {
+    max-width: var(--container-max);
+    border: 1px solid red;
+    margin: 0 auto;
     padding: 80px 0;
     background-color: var(--bg-white);
     text-align: center;
@@ -763,43 +766,30 @@ ul {
 .customer-stories-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    gap: 18px;
     margin-top: 48px;
     margin-bottom: 32px;
 }
 
 .customer-card {
-    border-radius: var(--border-radius-lg);
-    overflow: hidden;
     text-align: left;
 }
 
 .card-image {
     height: 280px;
-    background-size: cover;
-    background-position: center;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-}
 
-.perplexity-card .card-image {
-    background: linear-gradient(135deg, #0a3d3d 0%, #1a5f5f 100%);
-}
-
-.x-card .card-image {
-    background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);
-}
-
-.kalshi-card .card-image {
-    background: linear-gradient(135deg, #0a4040 0%, #40e0d0 100%);
 }
 
 .card-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 12px;
+    overflow: hidden;
 }
 
 .card-logo {
@@ -821,9 +811,9 @@ ul {
 }
 
 .kalshi-logo {
-    font-size: 48px;
+    font-size: 58px;
     font-weight: 700;
-    color: #40e0d0;
+    color: var(--bg-white);
 }
 
 .card-content {
@@ -874,23 +864,16 @@ ul {
 /* CTA Section */
 .cta {
     padding: 120px 0 80px;
-    background: linear-gradient(180deg, var(--bg-white) 0%, #f0f4ff 100%);
     text-align: center;
+    background-color: #FFFFFF;
 }
 
 .cta-title {
-    font-size: 48px;
-    font-weight: 600;
+    font-size: 36px;
+    font-weight: 700;
     line-height: 1.2;
     margin-bottom: 24px;
     color: var(--text-primary);
-}
-
-.gradient-text {
-    background: linear-gradient(135deg, #1a1a2e 0%, #4a90d9 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
 }
 
 .cta-description {
@@ -904,6 +887,23 @@ ul {
     gap: 16px;
     justify-content: center;
     margin-bottom: 64px;
+}
+
+.cta-buttons .btn{
+    padding: 8px 20px;
+}
+
+.cta-buttons .btn-secondary {
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-white);
+}
+
+.cta-buttons .btn-secondary:hover {
+    background-color: var(--border-color);
+}
+
+.cta-buttons .btn-primary:hover {
+    background-color: #2a2929;
 }
 
 .cta-features {
