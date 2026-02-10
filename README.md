@@ -60,4 +60,4 @@ Follow these steps to run the project locally:
     ```
 
 2. Open with Live Server in VS Code
-3. Open index.html in any modern web browser
+3. Open `index.html` in any modern web browser
