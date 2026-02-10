@@ -51,7 +51,13 @@ A desktop-first landing page recreation inspired by the Mintlify developer docum
 ---
 
 ## Setup Instructions
+Follow these steps to run the project locally:
 
-```bash
-git clone https://github.com/babitakry/mintlify-landing-page-assignment-2.git
-cd mintlify-landing-page-assignment-2
+1. **Clone the repository**
+    ```bash
+    git clone https://github.com/babitakry/mintlify-landing-page-assignment-2.git
+    cd mintlify-landing-page-assignment-2
+    ```
+
+2. Open with Live Server in VS Code
+3. Open index.html in any modern web browser
