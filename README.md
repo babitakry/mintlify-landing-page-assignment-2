@@ -34,10 +34,16 @@ A desktop-first landing page recreation inspired by the Mintlify developer docum
 
 ## Color Palette
 
-- Primary accent: Brand green
-- Text colors: Dark and muted gray tones
-- Backgrounds: White and light gray
-- Borders: Light gray
+- Brand Green: `#0D9373`  
+- Light Green Accent: `#1DB978`  
+- Primary Text: `#0f1115`  
+- Secondary Text: `#08090A`  
+- Muted Text: `#B8D8D5`  
+- Background White: `#FFFFFF`  
+- Light Background: `#f7f8f9`  
+- Soft Background: `rgba(0, 0, 0, 0.03)`  
+- Dark Background: `#0f1115`  
+- Border Color: `#e5e5e5`
 
 ---
 
